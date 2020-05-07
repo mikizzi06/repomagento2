@@ -21,6 +21,39 @@
         </referenceContainer>-->
 	
 		
+		<!--<referenceBlock name="privacy-policy-link" remove="true"/>-->
+		
+		
+		
+		<referenceBlock name="footer_links">
+        <block class="Magento\Framework\View\Element\Html\Link\Current" name="qui-sommes-nous-link">
+            <arguments>
+                <argument name="label" xsi:type="string">Qui sommes nous</argument>
+                <argument name="path" xsi:type="string">qui-sommes-nous</argument>
+            </arguments>
+        </block>
+			
+			<block class="Magento\Framework\View\Element\Html\Link\Current" name="service-clients-link">
+            <arguments>
+                <argument name="label" xsi:type="string">Service clients</argument>
+                <argument name="path" xsi:type="string">service-clients</argument>
+            </arguments>
+        </block>
+			
+			<block class="Magento\Framework\View\Element\Html\Link\Current" name="conditions-generales-de-vente-link">
+            <arguments>
+                <argument name="label" xsi:type="string">Conditions générales de vente</argument>
+                <argument name="path" xsi:type="string">conditions-generales-de-vente</argument>
+            </arguments>
+        </block>
+			
+			
+    </referenceBlock>
+		
+		<referenceBlock name="catalog-search-advanced-link" remove="true"/>
+		<referenceBlock name="search-term-popular-link" remove="true"/>
+		<referenceBlock name="sales-guest-form-link" remove="true"/>
+		
 		
 			
 
@@ -31,18 +64,5 @@
     </body>
 </page>
 
-<!--
-<?xml version="1.0"?>
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-   <body>
-      <referenceContainer name="header.container">
-         <referenceContainer name="header-wrapper">
-            <container name="header.right" as="header_right" label="Page Header Right"                  htmlTag="div" htmlClass="header_right" after="logo">
-               <referenceBlock name="currency" remove="true"/>
-            </container>
-         </referenceContainer>
-    </referenceContainer>
-  </body>
-</page>-->
 
  
