@@ -9,8 +9,20 @@
     <body>
         
 			
-			<referenceBlock name="catalog.compare.sidebar" remove="true" />
+		<referenceBlock name="catalog.compare.sidebar" remove="true" />
 		<referenceBlock name="catalog.compare.link" remove="true" />
+		<referenceBlock name="related.product.addto.compare" remove="true"/>
+		<referenceBlock name="view.addto.compare" remove="true" />
+		
+		<referenceBlock name="category.product.addto.compare" remove="true" />
+		
+	
+		
+		
+		
+	
+		
+	
 		
 		 
     </body>
